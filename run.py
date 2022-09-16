@@ -30,6 +30,7 @@ def print_board(board):
 
 
 # asking name to make it more interactive and switching letters into numbers
+data_str =input("Enter your data here:\n")
 player_name = input("Please enter you name:")
 letters_to_numbers = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7}
 print(BANNER)
@@ -70,7 +71,7 @@ if __name__ == "__main__":
     generate_ships(HOLDING_BOARD)
     turns = 15
     while turns > 0:
-        print("Choose location for attack")
+        print("Choose location for attack, you need 2 hits to win")
         print_board(GUESS_BOARD)
         row, column = get_ship_location()
         if GUESS_BOARD[row][column] == "-":
