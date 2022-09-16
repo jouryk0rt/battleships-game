@@ -4,7 +4,7 @@ Things within the board:
 1. "-" = empty space
 2. "X" = ship that you hit
 
-# ADD PHOTO
+![Photo of project running in terminal](/assets/images/battleships.png)
 
 # Contents
 # User Experience UX
@@ -40,6 +40,7 @@ NEED TO UPDATE
 
 ## Testing
 I tested this software using the PEP8 Validator
+![Testing proof](/assets/images/pep8.png)
 
 ## Bugs
 - There are some error messages in the syntax, however the game currently runs smoothly.
