@@ -26,7 +26,11 @@ I have used no HTML or CSS for this project, so I have made it black and white.
 # Features
 Currently this is a basic battleships game for 1 player.
 ## Existing Features
-NEED TO UPDATE
+- The game keeps track of turns left and displays this to user.
+- 2 hits out of 15 turns are needed to win.
+- Personalised to enter a name before playing and using that name within the game.
+- If the user hits or missed he gets a notification after the attack
+- If user enters a non supported / false value they get a message which value is supported to enter according to their stage in the game.
 ## Future Features
 - Make it a 2 player game (computer and player)
 - Make it more user friendly and easier to use.
@@ -55,6 +59,8 @@ The game was made in Github, but deployed to heroku. The steps to deploy are bel
 - You will scroll down and see two options to move automatically or move manually
 
 [live link to github repository](https://github.com/jouryk0rt/battleships-game)
+
+[live link to heroku](https://battleships-game-python1.herokuapp.com/)
 
 # Credits
 ## Content
