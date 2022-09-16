@@ -29,8 +29,7 @@ def print_board(board):
         row_number += 1
 
 
-# asking name to make it more interactive and switching letters into numbers
-data_str =input("Enter your data here:\n")
+# ask name to make it more interactive and switching letters into numbers
 player_name = input("Please enter you name:")
 letters_to_numbers = {"A": 0, "B": 1, "C": 2, "D": 3, "E": 4, "F": 5, "G": 6, "H": 7}
 print(BANNER)

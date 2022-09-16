@@ -1,31 +1,65 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This Battleships game is a basic single-player game in Python. You have 15 turns in which you have to find 2 out of 5 ships to win.
 
-Welcome jouryk0rt,
+Things within the board:
+1. "-" = empty space
+2. "X" = ship that you hit
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+# ADD PHOTO
 
-## Reminders
+# Contents
+# User Experience UX
+## User Stories
+- As a user you want to play the game comfortably, meaning knowing what you need to do in order to win.
+- As a user when you put an incorrect value it gives the value message with accepted values.
+- As a user I want to see how many turns I have left in order to win.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Game Structure
+In my battleships game I wanted to have an X when hit and a - when miss with a text if I have hit or missed.
+Also, I have put out the number of turns left to the terminal and the number of ships to sink within those turns to win.
 
-## Creating the Heroku app
+## Design Choices
+The first thing you see when you play the game is the banner of battleships, which states very clearly that you are playing a battleships game, and to enter your name to make it more personal. Also there is a board in which the guesses of the player get to.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Colour Scheme
+I have used no HTML or CSS for this project, so I have made it black and white.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+# Features
+Currently this is a basic battleships game for 1 player.
+## Existing Features
+NEED TO UPDATE
+## Future Features
+- Make it a 2 player game (computer and player)
+- Make it more user friendly and easier to use.
+- Updating the colour scheme to enchance the playing.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Technologies Used
+- Github, to host the content and show the history of the game
+- Gitpod, used to make the game.
+- Python, used to code the game (Only Python is used)
+- Heroku, used to deploy the game, as asked from the CodeInstitute contents.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Testing
+I tested this software using the PEP8 Validator
 
-Connect your GitHub repository and deploy as normal.
+## Bugs
+- There are some error messages in the syntax, however the game currently runs smoothly.
+- The banner is to long in character space, but it doesn't seem to give any problems in running the game.
 
-## Constraints
+# Deployment
+The game was made in Github, but deployed to heroku. The steps to deploy are below:
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+- In the Heroku repository, go to the Settings tab.
+- Once in Settings, go to the built-in packages tab on the right side. Add two packages including Python and NodeJS
+- Connect your github GitHub to Heroku so you can access your repository.
+- You will scroll down and see two options to move automatically or move manually
 
------
-Happy coding!
+[live link to github repository](https://github.com/jouryk0rt/battleships-game)
+
+# Credits
+## Content
+The layout and game idea came from [This youtube tutorial](https://www.youtube.com/watch?v=tF1WRCrd_HQ)
+## Media
+All the media created I made myself.
+## Acknowledgements
+The game was completed for the study of Fullstack Developer at Code Institute. I want to thank my mentor Rahul for his guiding throughout the project.
+
